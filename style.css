@@ -1,0 +1,27 @@
+body {
+    background: #1c9e38;
+    display: flex;
+    justify-content: center;
+    }
+  
+  #ball-container {
+    width: 90vh;
+    display: grid;
+    place-items: center;
+    grid-template-areas:
+      "a1 . ."
+      ". a2 ."
+      ". . a3";
+  }
+  
+  #ball1 {
+    grid-area: a1;
+  }
+  
+  #ball2 {
+    grid-area: a2;
+  }
+  
+  #ball3 {
+    grid-area: a3;
+  }
